@@ -11,6 +11,7 @@ import json
 # 4: Print the top 10 most significant events, with the significance value of each
 
 # open the data file and load the JSON
+# The data is not in the folder of the start
 with open("../../30DayQuakes.json", "r") as datafile:
     data = json.load(datafile)
     
