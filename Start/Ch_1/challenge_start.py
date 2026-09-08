@@ -15,3 +15,5 @@ import json
 with open("../../30DayQuakes.json", "r") as datafile:
     data = json.load(datafile)
 print('we will use with to do the file opening here.')
+
+print('')
